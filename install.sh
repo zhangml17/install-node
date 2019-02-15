@@ -3,6 +3,7 @@
 # 选择安装目录
 if [ ! -d "/home/node-install" ];then
    mkdir -p /home/node-install
+   cd /home/node-install
 else
   cd /home/node-install
 fi
